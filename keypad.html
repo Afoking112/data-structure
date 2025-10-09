@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input oninput="dispKeyCode(event)" type="text">
+</body>
+</html>
+<script>
+
+ function dispKeyCode(event){
+    if(event.keyCode === 13){
+        alert("you are welcome")
+    }
+    console.log(event.keyCode,"Key");
+    console.log(event.keyCode,"Code");
+    
+ }
+</script>
