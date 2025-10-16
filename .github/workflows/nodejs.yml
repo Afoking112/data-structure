@@ -2,14 +2,14 @@ name: Node.js CI/CD Demo
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-   branches: [ master ]
+   branches: [ main ]
 
 jobs:
   build-test-deploy:
     runs-on: ubuntu-latest
-    
+
 
     steps:
       - name: Checkout code
