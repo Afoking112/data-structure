@@ -8,6 +8,7 @@ afterAll((done)=>{
     server.close(done)
 })
 
+
 describe("GET /", () => {
   it("should return a greeting message", async () => {
     const res = await request(app).get("/");
