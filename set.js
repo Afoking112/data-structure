@@ -8,9 +8,7 @@ set1.add (null)
 // set1. clear()
 // setl. delete(null)
 console.log(set1.size);
-// console. log(set1);
-// console. log (typeof (Il)) ;
-// new Array ()
+
 for(const item of set1) {
 console.log(item);
 }
